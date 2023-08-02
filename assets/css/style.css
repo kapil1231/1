@@ -124,6 +124,7 @@
     width: 60%;
     padding: 10px;
 }
+.h1{font-size: 60px;}
 .pdding50 {
     padding: 50%;
 }
@@ -142,16 +143,14 @@
     font-size: 48px;
 }
 .oopp {
-   padding-left: 36%;
+   padding-left: 35%;
 }
 .f_size_14 {
     font-size: 25px;
 }
-.try {
-    float: left;
-}
+
 .width100 {
-    width: 200px;
+    width: 250px;
 }
 .d-flex {
     display: flex;
@@ -160,6 +159,15 @@
 .img {
     padding-left: 20%;
 }
-@media (max-width1224) {
-    
+.iii{font-size: 21px;}
+.paddingtop15px{padding: 15px;}
+@media (max-width:576px) {
+   .block{ display: block;}
+    .col-5{width: 100%;
+        }
+   .pro { text-align: center;}
+    .rowwww{ flex-direction:column-reverse ;}
+    .widt{width: 100%;}
+    .d-flex{display: block;}
 }
+
